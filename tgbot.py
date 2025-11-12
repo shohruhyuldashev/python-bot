@@ -7,7 +7,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 
 # --- CONFIG ---
-TELEGRAM_TOKEN = "8190406880:AAGF98A-DZKMj93tgOnKX1BQyQVPrHKuMYs"  # BotFather-dan olingan token
+TELEGRAM_TOKEN = "Your_Tg_Token"  # BotFather-dan olingan token
 AWS_REGION = "eu-west-1"
 S3_BUCKET = "your-bucket-name"
 AWS_ACCESS_KEY = os.getenv("AWS_ACCESS_KEY")
